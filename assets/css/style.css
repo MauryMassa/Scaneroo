@@ -10,6 +10,7 @@
 --------------------------------------------------------------*/
 html {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -647,7 +648,7 @@ section {
 # Hero Section
 --------------------------------------------------------------*/
 .hero-section {
-  background: linear-gradient(to right, rgba(39, 70, 133, 0.8) 0%, rgba(61, 179, 197, 0.8) 100%), url(../img/hero-bg.jpg);
+  background: linear-gradient(39deg, rgba(255,217,79,0.9) 0%, rgba(255,188,0,0.9) 100%), url(../img/hero-bg.jpg);
   position: relative;
 }
 
