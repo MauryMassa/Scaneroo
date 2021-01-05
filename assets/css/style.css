@@ -42,6 +42,19 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   color: #000 !important;
 }
 
+.bg-yellow
+{
+  background-color: #FFBC00!important;
+}
+
+.bg-red{
+  background-color: #F65A5A!important;
+}
+
+.bg-blue{
+  background-color: #104A56!important;
+}
+
 .text-primary {
   color: #2d71a1 !important;
 }
@@ -242,17 +255,12 @@ section {
 .pricing {
   padding: 50px;
   background: linear-gradient(-45deg, #1391a5, #274685);
-  color: #fff;
-  padding-bottom: 12rem !important;
+  padding-bottom: 6rem !important;
   position: relative;
   border-radius: 4px;
   color: #000000;
   background: #fff;
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
-}
-
-.pricing h3 {
-  color: #2d71a1;
 }
 
 .pricing .price-cta {
@@ -267,7 +275,7 @@ section {
   display: block;
   margin-bottom: 20px;
   font-size: 2rem;
-  font-weight: 300;
+  font-weight: 700;
 }
 
 .pricing .popularity {
