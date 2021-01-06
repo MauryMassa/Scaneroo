@@ -42,6 +42,12 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   color: #000 !important;
 }
 
+.btn-scaneroo
+{
+  background-color: #FFBC00;
+  color: #fff!important;
+}
+
 .bg-yellow
 {
   background-color: #FFBC00!important;
@@ -198,26 +204,18 @@ section {
   margin-bottom: 0px;
 }
 
-/* Review */
-.review h3 {
+/* about */
+.about h3 {
   font-size: 20px;
 }
 
-.review p {
+.about p {
   line-height: 1.8;
   font-style: italic;
   color: #333333;
 }
 
-.review .stars span {
-  color: #FF8803;
-}
-
-.review .stars .muted {
-  color: #ccc;
-}
-
-.review .review-user img {
+.about .about-user img {
   width: 70px;
   margin: 0 auto;
 }
@@ -1074,7 +1072,8 @@ section {
 }
 
 .footer a {
-  color: #000;
+  color: #104A56;
+  font-weight: 600;
 }
 
 .footer .copyright {
