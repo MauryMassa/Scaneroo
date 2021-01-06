@@ -20,12 +20,12 @@ body {
 }
 
 a {
-  color: #777;
+  color: #104a56;
   transition: .3s all ease;
 }
 
 a:hover {
-  color: #000;
+  color:#FFBC00;
 }
 
 h1, h2, h3, h4, h5, h6, .font-heading {
@@ -145,8 +145,8 @@ section {
 }
 
 .btn.btn-primary {
-  background: #2d71a1;
-  background: linear-gradient(-45deg, #1391a5, #104a56);
+  background: #104a56;
+  background: linear-gradient(39deg, rgba(16, 74, 86, 1) 0%, rgba(16, 74, 86, 0.85) 100%);
   color: #fff;
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.15);
 }
@@ -253,7 +253,6 @@ section {
 .pricing {
   padding: 50px;
   background: linear-gradient(-45deg, #1391a5, #274685);
-  padding-bottom: 6rem !important;
   position: relative;
   border-radius: 4px;
   color: #000000;
@@ -261,9 +260,12 @@ section {
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
 }
 
+.pricing .pricing-image
+{
+  width: 10rem;
+}
+
 .pricing .price-cta {
-  position: absolute;
-  bottom: 50px;
   width: 100%;
   text-align: center;
   left: 0;
@@ -271,7 +273,6 @@ section {
 
 .pricing .price-cta .price {
   display: block;
-  margin-bottom: 20px;
   font-size: 2rem;
   font-weight: 700;
 }
@@ -374,14 +375,14 @@ section {
 }
 
 .sticky-wrapper .site-navbar .site-menu > li > a {
-  color: black !important;
+  color: #fff !important;
   box-sizing: border-box;
   border-bottom: 2px solid transparent;
   transition: all 0.8s ease;
 }
 
 .sticky-wrapper .site-navbar .site-menu > li > a:hover, .sticky-wrapper .site-navbar .site-menu > li > a.active {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid white;
 }
 
 .sticky-wrapper.is-sticky .burger:before, .sticky-wrapper.is-sticky .burger span, .sticky-wrapper.is-sticky .burger:after {
@@ -393,6 +394,10 @@ section {
   background: #fff;
   border-bottom: 1px solid transparent;
   box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2);
+}
+
+.sticky-wrapper.is-sticky .site-navbar .site-menu > li > a {
+  color: black !important;
 }
 
 .sticky-wrapper.is-sticky .site-navbar .site-logo .site-logo--lg {
@@ -661,7 +666,7 @@ section {
 # Hero Section
 --------------------------------------------------------------*/
 .hero-section {
-  background: linear-gradient(39deg, rgba(255,217,79,0.9) 0%, rgba(255,188,0,0.9) 100%), url(../img/hero-bg.jpg);
+  background: linear-gradient(39deg, rgba(253, 212, 65, 0.9) 0%, rgba(255,188,0,0.9) 100%);
   position: relative;
 }
 
