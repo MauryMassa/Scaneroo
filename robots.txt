@@ -12,4 +12,4 @@ Disallow: /assets/css/
 Disallow: /assets/js/
 Disallow: /assets/vendor/
 Disallow: /vendor/
-
+Sitemap: https://scaneroo.be/sitemap.xml
