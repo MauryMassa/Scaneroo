@@ -1,0 +1,15 @@
+User-agent: *
+
+Disallow: /forms/
+Disallow: /assets/img/
+Allow: /assets/img/logo_full_white.svg
+Allow: /assets/img/logo_full.svg
+Allow: /assets/img/logo_sm.svg
+Allow: /assets/img/logo.svg
+Allow: /assets/img/phone_1.png
+Allow: /assets/img/Scaneroo_full_image.jpg
+Disallow: /assets/css/
+Disallow: /assets/js/
+Disallow: /assets/vendor/
+Disallow: /vendor/
+
